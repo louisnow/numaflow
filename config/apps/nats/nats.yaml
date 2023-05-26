@@ -115,7 +115,7 @@ spec:
         #
         livenessProbe:
           httpGet:
-            path: /
+            path: /healthz
             port: 8222
           initialDelaySeconds: 10
           timeoutSeconds: 5
